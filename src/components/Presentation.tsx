@@ -302,7 +302,7 @@ export default function Presentation() {
           <li><span className="gp p"></span><b>Lisinopril 10 mg</b><span>1 vez · mañana</span></li>
           <li><span className="gp b on"></span><b>Atorvastatina 20 mg</b><span>1 vez · noche</span></li>
         </ul>
-        <div className="todo"><span>Recoger receta nueva</span><span>Presión todos los días</span></div>
+        <div className="todo"><span>Recoger receta nueva</span><span>Tomar la presión todos los días a las 11 AM</span></div>
       </article>
     </div>
   </div>
