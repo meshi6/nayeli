@@ -71,19 +71,16 @@ export default function Presentation() {
       <article className="pillar sky reveal">
         <span className="orb sm"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
         <h3>Voice first</h3>
-        <p className="es">“Habla, no escribas.”</p>
         <p>Diego says it once, in Spanish or English. No forms, no menus, big tap targets for Rosa.</p>
       </article>
       <article className="pillar sage reveal">
         <svg className="ic big" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 34 H36"></path><path d="M7 34 V29 H33 V34"></path><path d="M11 29 V24 H29 V29"></path><path d="M15 24 V19 H25 V24"></path><path d="M18 19 V14 H22 V19"></path><path d="M20 14 V9"></path></svg>
         <h3>Does the work</h3>
-        <p className="es">“Yo me encargo.”</p>
         <p>She places real phone calls, finds slots, books rides and keeps the medication list straight.</p>
       </article>
       <article className="pillar lav reveal">
         <svg className="ic big" viewBox="0 0 40 40" aria-hidden="true"><path d="M3 12 L15 17"></path><path d="M15 17 L22 13 L29 14 L37 12 L30 17"></path><path d="M30 17 L26 23 L17 27 L11 35"></path><path d="M17 27 L16 17"></path><path d="M17 18 L21 6 L26 14"></path></svg>
         <h3>Keeps everyone in the loop</h3>
-        <p className="es">“Les aviso a los dos.”</p>
         <p>Every change shows up live for the family, with a text to Rosa and Diego when it’s done.</p>
       </article>
     </div>
