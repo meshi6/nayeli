@@ -13,6 +13,7 @@ export default function Presentation() {
     <h1 className="mega">Nayeli</h1>
     <p className="lede">Nayeli gives Spanish-speaking parents the language support they need, <em>so kids can be kids and focus on school instead of interpreting.</em></p>
     <p className="es">Nayeli helps prevent language-brokering burnout, parentification and anxiety in children.</p>
+    <div className="toplinks"><a className="btn dark" href="https://www.youtube.com/watch?v=kvechgOQf6w" target="_blank" rel="noopener">Watch the demo video ↗</a><a className="btn ghost" href="https://nayeli-care-buddy.base44.app" target="_blank" rel="noopener">Try the app ↗</a></div>
   </div>
   <div className="sheet" aria-hidden="true">
     <svg className="cut" viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 0 H1440 V24 C1180 24 1120 86 900 86 L540 86 C320 86 260 24 0 24 Z"></path></svg>
@@ -145,6 +146,7 @@ export default function Presentation() {
       <div className="demo-actions">
         <button className="btn dark" id="autoplay">Play the morning</button>
         <a className="btn ghost" href="https://nayeli-care-buddy.base44.app" target="_blank" rel="noopener">Open the live app</a>
+        <a className="btn ghost" href="https://www.youtube.com/watch?v=kvechgOQf6w" target="_blank" rel="noopener">Watch the demo video ↗</a>
       </div>
     </div>
 
