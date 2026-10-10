@@ -371,7 +371,9 @@ p.es { font-style: italic; font-weight: 600; color: var(--coral); }
 .person:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(30,27,24,.1); }
 .person .pa { color: #1f5561; font-size: 22px; }
 .person { background: #fff; border-radius: 28px; padding: 26px; display: flex; flex-direction: column; gap: 6px; }
-.person .pa { width: 72px; height: 72px; border-radius: 50%; background: var(--sky); display: grid; place-items: center; font-weight: 800; color: var(--muted); margin-bottom: 10px; }
+.person .pa { width: 96px; height: 96px; border-radius: 50%; background: var(--sky); display: grid; place-items: center; font-weight: 800; color: var(--muted); margin-bottom: 10px; overflow: hidden; }
+.person .pa { position: relative; }
+.person .pa img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
 .person b { font-size: 21px; }
 .person span { color: var(--muted); font-size: 16px; font-weight: 600; }
 .ask { margin-top: 36px; font-size: 22px; line-height: 1.5; background: var(--butter); border-radius: 24px; padding: 22px 26px; }
