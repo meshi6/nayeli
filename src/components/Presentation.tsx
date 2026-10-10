@@ -9,7 +9,7 @@ export default function Presentation() {
 {/* 0 · TITLE */}
 <section className="sec title" id="title" data-title="Nayeli">
   <div className="wrap">
-    <p className="eyebrow">Assistant + Scribe for Spanish-speaking patients in the US</p>
+    <p className="eyebrow">Assistant + Scribe for Spanish-speaking Families in the US</p>
     <h1 className="mega">Nayeli</h1>
     <p className="lede">Nayeli gives Spanish-speaking parents the language support they need, <em>so kids can be kids and focus on school instead of interpreting.</em></p>
     <p className="es">Nayeli helps prevent language-brokering burnout, parentification and anxiety in children.</p>
