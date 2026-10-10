@@ -388,8 +388,8 @@ export default function Presentation() {
   <div className="wrap">
     <h2 className="h2">The team.</h2>
     <div className="people reveal">
-      <a className="person sky" href="https://www.linkedin.com/in/mercedeslladosvila/" target="_blank" rel="noopener"><div className="pa"><Image src="/team/mercedes-llados-vila.jpg" alt="Mercedes Llados Vila" width={360} height={360} /></div><b>Mercedes Llados Vila</b><span className="li">LinkedIn ↗</span></a>
-      <a className="person sage" href="https://www.linkedin.com/in/aleeguren/" target="_blank" rel="noopener"><div className="pa"><Image src="/team/ale-eguren.jpg" alt="Ale Eguren" width={360} height={360} /></div><b>Ale Eguren</b><span className="li">LinkedIn ↗</span></a>
+      <a className="person" href="https://www.linkedin.com/in/mercedeslladosvila/" target="_blank" rel="noopener"><div className="pa"><Image src="/team/mercedes-llados-vila.jpg" alt="Mercedes Llados Vila" width={360} height={360} /></div><b>Mercedes Llados Vila</b><span className="li">LinkedIn ↗</span></a>
+      <a className="person" href="https://www.linkedin.com/in/aleeguren/" target="_blank" rel="noopener"><div className="pa"><Image src="/team/ale-eguren.jpg" alt="Ale Eguren" width={360} height={360} /></div><b>Ale Eguren</b><span className="li">LinkedIn ↗</span></a>
     </div>
   </div>
 </section>
