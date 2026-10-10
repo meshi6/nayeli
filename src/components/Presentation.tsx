@@ -58,7 +58,7 @@ export default function Presentation() {
   <div className="wrap stats reveal">
     <div className="stat"><div className="n">≈26M</div><div className="t">people in the U.S. have limited English proficiency</div><div className="src">U.S. Census Bureau, American Community Survey</div></div>
     <div className="stat"><div className="n">6 in 10</div><div className="t">of them speak Spanish at home</div><div className="src">U.S. Census Bureau, American Community Survey</div></div>
-    <div className="stat"><div className="n">[X%]</div><div className="t">[of children of immigrants regularly broker language for their parents]</div><div className="src">[Add source]</div></div>
+    <div className="stat"><div className="n">20%</div><div className="t">of child language brokers suffer clinical distress</div></div>
   </div>
 </section>
 
