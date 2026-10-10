@@ -36,6 +36,11 @@ export default function Presentation() {
       <p className="cap" data-at="9.4">His mom doesn’t need a translator.<br />She needs someone to handle it.</p>
       <div className="cap end" data-at="12.4"><span className="orb lg speaking" aria-hidden="true"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span><span>Meet Nayeli.</span></div>
     </div>
+    <div className="poster" aria-hidden="true">
+      <span className="plabel">Intro · 0:15</span>
+      <span className="orb lg pposter"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
+      <div className="ptext"><span className="pclock">7:40 AM</span><span className="ptitle">Diego is 11. He should be leaving for school.</span></div>
+    </div>
     <button className="play" id="playIntro" aria-label="Play intro"><svg className="si" width="42" height="42" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"></path></svg></button>
   </div>
   <a className="scrollcue" href="#problem">Scroll <svg className="si" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></a>
