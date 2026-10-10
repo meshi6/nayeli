@@ -348,7 +348,7 @@ export default function Presentation() {
 <section className="sec trust" id="trust" data-title="Trust">
   <div className="wrap grid2">
     <div>
-      <p className="eyebrow coral">Trust and safety</p>
+      <p className="eyebrow coral">Trust and Empathy</p>
       <h2 className="h2">Nayeli handles logistics. The family stays in charge.</h2>
     </div>
     <ul className="tlist reveal">
