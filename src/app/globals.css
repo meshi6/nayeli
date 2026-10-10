@@ -362,7 +362,10 @@ p.es { font-style: italic; font-weight: 600; color: var(--coral); }
 .rcard p { margin: 0; font-size: 17px; line-height: 1.5; color: var(--ink-2); }
 
 /* 9 team */
-.people { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 20px; }
+.people { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 20px; max-width: 760px; }
+.person { text-decoration: none; color: inherit; transition: transform .2s, box-shadow .2s; }
+.person:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(30,27,24,.1); }
+.person .pa { color: #1f5561; font-size: 22px; }
 .person { background: #fff; border-radius: 28px; padding: 26px; display: flex; flex-direction: column; gap: 6px; }
 .person .pa { width: 72px; height: 72px; border-radius: 50%; background: var(--sky); display: grid; place-items: center; font-weight: 800; color: var(--muted); margin-bottom: 10px; }
 .person b { font-size: 21px; }

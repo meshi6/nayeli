@@ -380,10 +380,8 @@ export default function Presentation() {
   <div className="wrap">
     <p className="eyebrow coral">The team</p>
     <div className="people reveal">
-      <div className="person"><div className="pa">[ ]</div><b>[Name]</b><span>[Role]</span></div>
-      <div className="person"><div className="pa">[ ]</div><b>[Name]</b><span>[Role]</span></div>
-      <div className="person"><div className="pa">[ ]</div><b>[Name]</b><span>[Role]</span></div>
-      <div className="person"><div className="pa">[ ]</div><b>[Name]</b><span>[Role]</span></div>
+      <a className="person" href="https://www.linkedin.com/in/mercedeslladosvila/" target="_blank" rel="noopener"><div className="pa">ML</div><b>Mercedes Llados Vila</b><span>LinkedIn ↗</span></a>
+      <a className="person" href="https://www.linkedin.com/in/aleeguren/" target="_blank" rel="noopener"><div className="pa">AE</div><b>Ale Eguren</b><span>LinkedIn ↗</span></a>
     </div>
     <div className="ask reveal"><b>Our ask:</b> [pilot partners, e.g. a community clinic or a Medicaid managed-care plan]</div>
   </div>
