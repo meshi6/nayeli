@@ -6,7 +6,21 @@ export default function Presentation() {
 
 <nav className="dots" aria-label="Sections"></nav>
 
-{/* 0 · INTRO VIDEO */}
+{/* 0 · TITLE */}
+<section className="sec title" id="title" data-title="Nayeli">
+  <div className="wrap">
+    <p className="eyebrow">Assistant + Scribe for Spanish-speaking patients in the US</p>
+    <h1 className="mega">Nayeli</h1>
+    <p className="lede">Nayeli gives Spanish-speaking parents the language support they need, <em>so kids can be kids and focus on school instead of interpreting.</em></p>
+    <p className="es">Nayeli helps prevent language-brokering burnout, parentification and anxiety in children.</p>
+  </div>
+  <div className="sheet" aria-hidden="true">
+    <svg className="cut" viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 0 H1440 V24 C1180 24 1120 86 900 86 L540 86 C320 86 260 24 0 24 Z"></path></svg>
+    <span className="orb xl"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
+  </div>
+</section>
+
+{/* 1 · INTRO VIDEO */}
 <section className="sec intro" id="intro" data-title="Intro">
   <div className="film" id="film">
     <video id="introVideo" playsInline preload="metadata">
@@ -21,21 +35,7 @@ export default function Presentation() {
     </div>
     <button className="play" id="playIntro" aria-label="Play intro"><svg className="si" width="42" height="42" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"></path></svg></button>
   </div>
-  <a className="scrollcue" href="#title">Scroll <svg className="si" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></a>
-</section>
-
-{/* 1 · TITLE */}
-<section className="sec title" id="title" data-title="Nayeli">
-  <div className="wrap">
-    <p className="eyebrow">Assistant + Scribe for Spanish-speaking patients in the US</p>
-    <h1 className="mega">Nayeli</h1>
-    <p className="lede">Nayeli gives Spanish-speaking parents the language support they need, <em>so kids can be kids and focus on school instead of interpreting.</em></p>
-    <p className="es">Nayeli helps prevent language-brokering burnout, parentification and anxiety in children.</p>
-  </div>
-  <div className="sheet" aria-hidden="true">
-    <svg className="cut" viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 0 H1440 V24 C1180 24 1120 86 900 86 L540 86 C320 86 260 24 0 24 Z"></path></svg>
-    <span className="orb xl"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
-  </div>
+  <a className="scrollcue" href="#problem">Scroll <svg className="si" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></a>
 </section>
 
 {/* 2 · PROBLEM */}
