@@ -151,7 +151,6 @@ export default function Presentation() {
         </ol>
       </div>
       <div className="demo-actions">
-        <button className="btn dark" id="autoplay">Play the morning</button>
         <a className="btn ghost" href="https://nayeli-care-buddy.base44.app" target="_blank" rel="noopener">Open the live app</a>
         <a className="btn ghost" href="https://www.youtube.com/watch?v=kvechgOQf6w" target="_blank" rel="noopener">Watch the demo video ↗</a>
       </div>
