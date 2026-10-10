@@ -100,7 +100,7 @@ export default function Presentation() {
   <div className="sticky">
     <div className="demo-left">
       <div className="demo-head">
-        <p className="eyebrow coral">One morning</p>
+        <p className="eyebrow coral">Demo</p>
         <div className="stagebar" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
       </div>
       <div className="stories">
