@@ -30,7 +30,7 @@ export default function Presentation() {
     <p className="eyebrow">Assistant + Scribe for Spanish-speaking patients in the US</p>
     <h1 className="mega">Nayeli</h1>
     <p className="lede">A voice-first AI care companion that takes the healthcare admin off Spanish-speaking families, <em>so kids can focus on education.</em></p>
-    <p className="es">“Para que los niños vuelvan a ser niños.”</p>
+    <p className="es">Nayeli helps prevent language-brokering burnout, parentification and anxiety in children.</p>
   </div>
   <div className="sheet" aria-hidden="true">
     <svg className="cut" viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 0 H1440 V24 C1180 24 1120 86 900 86 L540 86 C320 86 260 24 0 24 Z"></path></svg>
