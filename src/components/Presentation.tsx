@@ -13,7 +13,7 @@ export default function Presentation() {
   <div className="wrap">
     <p className="eyebrow">Assistant + Scribe for Spanish-speaking Families in the US</p>
     <h1 className="mega">Nayeli</h1>
-    <p className="lede">Nayeli gives Spanish-speaking parents the language support they need, <em>so kids can be kids and focus on school instead of interpreting.</em></p>
+    <p className="lede">Nayeli gives Spanish-speaking parents the language support they need, <em>so kids can be kids and focus on school instead of parenting.</em></p>
     <p className="es">Nayeli helps prevent language-brokering burnout, parentification and anxiety in children.</p>
     <div className="toplinks"><a className="btn dark" href="https://www.youtube.com/watch?v=kvechgOQf6w" target="_blank" rel="noopener">Watch the demo video ↗</a><a className="btn ghost" href="https://nayeli-care-buddy.base44.app" target="_blank" rel="noopener">Try the app ↗</a></div>
   </div>
