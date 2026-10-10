@@ -359,6 +359,8 @@ p.es { font-style: italic; font-weight: 600; color: var(--coral); }
 .node.coral .nk, .node.coral p { color: #fff; }
 .node.ink { background: var(--ink); color: #fff; }
 .node.ink .nk { color: #bdb5aa; } .node.ink p { color: #e6e0d6; }
+.node.teal { background: #1f5561; color: #fff; }
+.node.teal .nk { color: #a9d6df; } .node.teal p { color: #e3f1f4; }
 .node.white { background: #fff; box-shadow: 0 6px 20px rgba(30,27,24,.06); }
 .buildnote { margin-top: 36px; font-size: 17px; color: var(--ink-2); background: #fff; border-radius: 18px; padding: 14px 18px; display: inline-block; }
 

@@ -328,7 +328,7 @@ export default function Presentation() {
       <div className="arrow" aria-hidden="true"><svg className="si" viewBox="0 0 48 24"><path d="M2 12h42"></path><path d="M36 5l8 7-8 7"></path></svg></div>
       <div className="col">
         <div className="node coral"><div className="nk">ElevenLabs</div><div className="nv">Conversational AI</div><p>Nayeli’s voice. Real-time speech in and out, bilingual.</p></div>
-        <div className="node ink"><div className="nk">Agent core</div><div className="nv">Intent → plan → act</div><p>Rosa’s care profile: appointments, meds, contacts, preferences.</p></div>
+        <div className="node teal"><div className="nk">Agent core</div><div className="nv">Intent → plan → act</div><p>Rosa’s care profile: appointments, meds, contacts, preferences.</p></div>
       </div>
       <div className="arrow" aria-hidden="true"><svg className="si" viewBox="0 0 48 24"><path d="M2 12h42"></path><path d="M36 5l8 7-8 7"></path></svg></div>
       <div className="col tools">
