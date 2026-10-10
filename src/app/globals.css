@@ -330,7 +330,8 @@ p.es { font-style: italic; font-weight: 600; color: var(--coral); }
 .tech.coral .tp, .tech.coral p { color: #fff; }
 @media (max-width: 1000px) { .stack { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .stack { grid-template-columns: 1fr; } }
-.arch { display: flex; align-items: center; gap: 14px; margin-top: 60px; }
+.archlabel { margin-top: 72px; }
+.arch { display: flex; align-items: center; gap: 14px; margin-top: 8px; }
 .arch .col { flex: 1; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .arch .col.tools { flex: 1.1; }
 .arrow { flex: none; width: 40px; color: var(--muted); }

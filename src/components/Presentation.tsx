@@ -313,7 +313,6 @@ export default function Presentation() {
 {/* 6 · HOW IT WORKS */}
 <section className="sec how" id="how" data-title="How it works">
   <div className="wrap">
-    <p className="eyebrow coral">How it works</p>
     <h2 className="h2 narrow">The stack.</h2>
     <div className="stack reveal">
       <div className="tech coral"><div className="tn">ElevenLabs</div><div className="tp">Conversational AI</div><p>Nayeli’s real-time voice, in Spanish and English.</p></div>
@@ -321,6 +320,7 @@ export default function Presentation() {
       <div className="tech sage"><div className="tn">Base44</div><div className="tp">Nayeli app</div><p>The family dashboard and care task list.</p></div>
       <div className="tech lav"><div className="tn">Next.js + Vercel</div><div className="tp">This site</div><p>The pitch you’re scrolling, at nayeli.gtm0.com.</p></div>
     </div>
+    <p className="eyebrow coral archlabel">How it works</p>
     <div className="arch reveal">
       <div className="col">
         <div className="node white"><div className="nk">Family</div><div className="nv">Diego · Rosa</div><p>Talk in Spanish or English, in the app or by phone.</p></div>
