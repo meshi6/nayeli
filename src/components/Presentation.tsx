@@ -27,7 +27,7 @@ export default function Presentation() {
 {/* 1 · TITLE */}
 <section className="sec title" id="title" data-title="Nayeli">
   <div className="wrap">
-    <p className="eyebrow">Doc Buddy · Compañero de visitas médicas</p>
+    <p className="eyebrow">Assistant + Scribe for Spanish-speaking patients in the US</p>
     <h1 className="mega">Nayeli</h1>
     <p className="lede">A voice-first AI care companion that takes the healthcare admin off Spanish-speaking families, <em>so kids can stay kids.</em></p>
     <p className="es">“Para que los niños vuelvan a ser niños.”</p>
