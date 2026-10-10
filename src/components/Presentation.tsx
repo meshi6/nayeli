@@ -39,7 +39,7 @@ export default function Presentation() {
     <div className="poster" aria-hidden="true">
       <span className="plabel">Intro · 0:15</span>
       <span className="orb lg pposter"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
-      <div className="ptext"><span className="pclock">7:40 AM</span><span className="ptitle">Diego is 11. He should be leaving for school.</span></div>
+      <div className="ptext"><span className="pclock">7:40 AM</span><span className="pplace">Brooklyn, NY</span></div>
     </div>
     <button className="play" id="playIntro" aria-label="Play intro"><svg className="si" width="42" height="42" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"></path></svg></button>
   </div>
