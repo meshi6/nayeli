@@ -288,8 +288,7 @@ export default function Presentation() {
       </article>
       <article className="moment butter reveal">
         <div className="mnum">02</div>
-        <h3>The reminder call.</h3>
-        <p>The day before, Nayeli calls Rosa in Spanish. No ride? She books one and puts it on the family feed.</p>
+        <h3>Nayeli schedules transportation.</h3>
         <div className="quote"><span>Nayeli</span>“¿Tiene transporte para su cita?”</div>
         <div className="quote r"><span>Rosa</span>“No.”</div>
         <div className="result"><svg className="si" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg>Pickup scheduled · Thu 1:15 PM</div>
