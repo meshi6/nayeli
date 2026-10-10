@@ -74,7 +74,7 @@ export default function Presentation() {
 <section className="sec meet" id="meet" data-title="Nayeli">
   <div className="wrap">
     <p className="eyebrow coral">Meet Nayeli</p>
-    <h2 className="h2 narrow">Not a translator. A care agent who does the work, in Spanish and English, by voice calls.</h2>
+    <h2 className="h2 narrow">Not a translator. A bilingual care agent who does the work.</h2>
     <div className="pillars">
       <article className="pillar sky reveal">
         <span className="orb sm"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
