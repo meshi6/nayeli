@@ -29,7 +29,7 @@ export default function Presentation() {
   <div className="wrap">
     <p className="eyebrow">Assistant + Scribe for Spanish-speaking patients in the US</p>
     <h1 className="mega">Nayeli</h1>
-    <p className="lede">A voice-first AI care companion that takes the healthcare admin off Spanish-speaking families, <em>so kids can focus on education.</em></p>
+    <p className="lede">Voice-first bilingual AI care companion taking the healthcare admin off Spanish-speaking families, <em>so kids can focus on education.</em></p>
     <p className="es">Nayeli helps prevent language-brokering burnout, parentification and anxiety in children.</p>
   </div>
   <div className="sheet" aria-hidden="true">
