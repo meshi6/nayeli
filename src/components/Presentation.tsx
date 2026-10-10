@@ -343,10 +343,10 @@ export default function Presentation() {
       </div>
     </div>
     <div className="stack reveal">
-      <div className="tech coral"><div className="tn">ElevenLabs</div><div className="tp">Conversational AI</div><p>Nayeli’s real-time voice, in Spanish and English.</p></div>
-      <div className="tech sky"><div className="tn">Twilio</div><div className="tp">Voice + SMS</div><p>Outbound calls to patients and clinics, texts to the family.</p></div>
-      <div className="tech sage"><div className="tn">Base44</div><div className="tp">Nayeli app</div><p>The family dashboard and care task list.</p></div>
-      <div className="tech lav"><div className="tn">Next.js + Vercel</div><div className="tp">This site</div><p>The pitch you’re scrolling, at nayeli.gtm0.com.</p></div>
+      <div className="tech"><div className="tn">ElevenLabs</div><div className="tp">Conversational AI</div><p>Nayeli’s real-time voice, in Spanish and English.</p></div>
+      <div className="tech"><div className="tn">Twilio</div><div className="tp">Voice + SMS</div><p>Outbound calls to patients and clinics, texts to the family.</p></div>
+      <div className="tech"><div className="tn">Base44</div><div className="tp">Nayeli app</div><p>The family dashboard and care task list.</p></div>
+      <div className="tech"><div className="tn">Next.js + Vercel</div><div className="tp">This site</div><p>The pitch you’re scrolling, at nayeli.gtm0.com.</p></div>
     </div>
     <div className="buildnote reveal"><b>In this build:</b> ElevenLabs voice and Twilio calls &amp; texts are live. Clinic scheduling and ride booking are simulated.</div>
   </div>

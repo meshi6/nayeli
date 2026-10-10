@@ -332,7 +332,7 @@ p.es { font-style: italic; font-weight: 600; color: var(--coral); }
 
 /* 6 how */
 .stack { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 40px; }
-.tech { border-radius: 28px; padding: 24px; display: flex; flex-direction: column; gap: 4px; }
+.tech { background: #fff; box-shadow: 0 8px 28px rgba(30,27,24,.06); border-radius: 28px; padding: 24px; display: flex; flex-direction: column; gap: 4px; }
 .tech .tn { font-size: 28px; font-weight: 800; letter-spacing: -0.02em; }
 .tech .tp { font-size: 14px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .tech p { margin: 10px 0 0; font-size: 17px; line-height: 1.45; color: var(--ink-2); }
