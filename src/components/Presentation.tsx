@@ -44,7 +44,7 @@ export default function Presentation() {
     <div>
       <p className="eyebrow coral">The problem</p>
       <h2 className="h2">Diego is 11. He’s also his mom’s interpreter, scheduler, pharmacist and ride coordinator.</h2>
-      <p className="body">In many Hispanic families, the child who speaks English becomes the household’s healthcare admin. They miss class to make calls, sit on hold before the first bell, and carry diagnoses no kid should have to translate. When nobody is free, the appointment simply gets missed.</p>
+      <p className="body">In countless Hispanic households, the child who speaks English becomes the household’s healthcare admin. They miss class to make calls, sit on hold before the first bell, and carry diagnoses no kid should have to translate. When nobody is free, the appointment simply gets missed.</p>
     </div>
     <div className="jobs reveal">
       <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M7 34 V11 H33 V34"></path><path d="M4 34 H36"></path><path d="M20 15 V25 M15 20 H25"></path><path d="M16 34 V29 H24 V34"></path></svg><span>Calling the clinic</span></div>
