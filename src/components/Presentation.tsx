@@ -286,7 +286,7 @@ export default function Presentation() {
 <section className="sec moments" id="moments" data-title="Moments">
   <div className="wrap">
     <p className="eyebrow coral">Three moments, one agent</p>
-    <h2 className="h2 narrow">Nayeli shows up before, between and during visits.</h2>
+    <h2 className="h2 narrow">Nayeli shows up before, during, and after visits.</h2>
     <div className="mgrid">
       <article className="moment sky reveal">
         <div className="mnum">01</div>
