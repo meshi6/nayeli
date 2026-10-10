@@ -386,10 +386,10 @@ export default function Presentation() {
 {/* 9 · TEAM / ASK */}
 <section className="sec team" id="team" data-title="Team">
   <div className="wrap">
-    <p className="eyebrow coral">The team</p>
+    <h2 className="h2">The team.</h2>
     <div className="people reveal">
-      <a className="person" href="https://www.linkedin.com/in/mercedeslladosvila/" target="_blank" rel="noopener"><div className="pa"><Image src="/team/mercedes-llados-vila.jpg" alt="Mercedes Llados Vila" width={192} height={192} /></div><b>Mercedes Llados Vila</b><span>LinkedIn ↗</span></a>
-      <a className="person" href="https://www.linkedin.com/in/aleeguren/" target="_blank" rel="noopener"><div className="pa"><Image src="/team/ale-eguren.jpg" alt="Ale Eguren" width={192} height={192} /></div><b>Ale Eguren</b><span>LinkedIn ↗</span></a>
+      <a className="person sky" href="https://www.linkedin.com/in/mercedeslladosvila/" target="_blank" rel="noopener"><div className="pa"><Image src="/team/mercedes-llados-vila.jpg" alt="Mercedes Llados Vila" width={360} height={360} /></div><b>Mercedes Llados Vila</b><span className="li">LinkedIn ↗</span></a>
+      <a className="person sage" href="https://www.linkedin.com/in/aleeguren/" target="_blank" rel="noopener"><div className="pa"><Image src="/team/ale-eguren.jpg" alt="Ale Eguren" width={360} height={360} /></div><b>Ale Eguren</b><span className="li">LinkedIn ↗</span></a>
     </div>
   </div>
 </section>
