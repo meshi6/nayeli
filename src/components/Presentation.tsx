@@ -369,7 +369,7 @@ export default function Presentation() {
     <div className="rgrid reveal">
       <div className="rcard"><span className="rnow">Next</span><h3>Symptom check-in calls</h3><p>A short daily call: “¿Cómo amaneció hoy?”</p></div>
       <div className="rcard"><span className="rnow">Next</span><h3>Pill photo check</h3><p>Rosa shows the pill; Nayeli confirms it’s the right one.</p></div>
-      <div className="rcard"><span>Later</span><h3>Family voice</h3><p>Nayeli can speak in a familiar voice, with consent.</p></div>
+      <div className="rcard"><span>Later</span><h3>Community Resources</h3><p>Such as food and housing.</p></div>
       <div className="rcard"><span>Later</span><h3>Family Network</h3></div>
     </div>
   </div>
