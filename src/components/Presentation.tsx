@@ -320,6 +320,7 @@ export default function Presentation() {
 <section className="sec how" id="how" data-title="How it works">
   <div className="wrap">
     <p className="eyebrow coral archlabel">How it works</p>
+    <h2 className="h2 narrow archhead">The stack.</h2>
     <div className="arch reveal">
       <div className="col">
         <div className="node white"><div className="nk">Family</div><div className="nv">Diego · Rosa</div><p>Talk in Spanish or English, in the app or by phone.</p></div>
@@ -341,7 +342,6 @@ export default function Presentation() {
         <div className="node white"><div className="nk">Family feed</div><div className="nv">Live updates</div><p>Every action, transcript and summary, as it happens.</p></div>
       </div>
     </div>
-    <h2 className="h2 narrow stackhead">The stack.</h2>
     <div className="stack reveal">
       <div className="tech coral"><div className="tn">ElevenLabs</div><div className="tp">Conversational AI</div><p>Nayeli’s real-time voice, in Spanish and English.</p></div>
       <div className="tech sky"><div className="tn">Twilio</div><div className="tp">Voice + SMS</div><p>Outbound calls to patients and clinics, texts to the family.</p></div>
