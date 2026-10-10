@@ -320,6 +320,15 @@ p.es { font-style: italic; font-weight: 600; color: var(--coral); }
 .todo span { background: var(--ink); color: #fff; border-radius: 999px; padding: 9px 14px; font-weight: 700; font-size: 15px; }
 
 /* 6 how */
+.stack { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 40px; }
+.tech { border-radius: 28px; padding: 24px; display: flex; flex-direction: column; gap: 4px; }
+.tech .tn { font-size: 28px; font-weight: 800; letter-spacing: -0.02em; }
+.tech .tp { font-size: 14px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.tech p { margin: 10px 0 0; font-size: 17px; line-height: 1.45; color: var(--ink-2); }
+.tech.coral { background: linear-gradient(165deg, var(--coral-1), var(--coral-2)); color: #fff; }
+.tech.coral .tp, .tech.coral p { color: #fff; }
+@media (max-width: 1000px) { .stack { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .stack { grid-template-columns: 1fr; } }
 .arch { display: flex; align-items: center; gap: 14px; margin-top: 60px; }
 .arch .col { flex: 1; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .arch .col.tools { flex: 1.1; }
