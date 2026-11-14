@@ -79,7 +79,6 @@ export default function Presentation() {
         </ol>
       </div>
       <div className="demo-actions">
-        <a className="btn ghost" href="https://nayeli-care-buddy.base44.app" target="_blank" rel="noopener">Open the live app</a>
         <a className="btn ghost" href="https://www.youtube.com/watch?v=kvechgOQf6w" target="_blank" rel="noopener">Watch the demo video ↗</a>
       </div>
     </div>
@@ -377,7 +376,6 @@ export default function Presentation() {
     <span className="orb xl speaking" aria-hidden="true"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
     <h2 className="mega sm">Gracias.</h2>
     <p className="lede">Diego made his math test. Rosa made her appointment.<br />Nayeli handled the rest.</p>
-    <a className="btn light" href="https://nayeli-care-buddy.base44.app" target="_blank" rel="noopener">Try Nayeli</a>
   </div>
 </section>
 
