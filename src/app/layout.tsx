@@ -10,9 +10,9 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Nayeli · Doc Buddy",
+  title: "ElevenLabs Bilingual Voice Assistant · Nayeli",
   description:
-    "Nayeli is a voice-first AI care companion that takes healthcare admin off Spanish-speaking families, so kids can stay focused on school.",
+    "Nayeli is a voice-first AI care companion that takes healthcare admin off Spanish-speaking families. Built with ElevenLabs, Twilio, and Vercel.",
   metadataBase: new URL("https://nayeli.gtm0.com"),
 };
 
