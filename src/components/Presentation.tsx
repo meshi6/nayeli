@@ -15,7 +15,7 @@ export default function Presentation() {
     <h1 className="mega">Nayeli</h1>
     <p className="lede">Nayeli gives Spanish-speaking parents the language support they need, <em>so kids can be kids and focus on school instead of parenting.</em></p>
     <p className="es">Nayeli helps prevent language-brokering burnout, parentification and anxiety in children.</p>
-    <div className="toplinks"><a className="btn dark" href="https://www.youtube.com/watch?v=kvechgOQf6w" target="_blank" rel="noopener">Watch the demo video ↗</a><a className="btn ghost" href="https://nayeli-care-buddy.base44.app" target="_blank" rel="noopener">Try the app ↗</a></div>
+    <div className="toplinks"><a className="btn dark" href="https://www.youtube.com/watch?v=kvechgOQf6w" target="_blank" rel="noopener">Watch the demo video ↗</a></div>
   </div>
   <div className="sheet" aria-hidden="true">
     <svg className="cut" viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 0 H1440 V24 C1180 24 1120 86 900 86 L540 86 C320 86 260 24 0 24 Z"></path></svg>
@@ -23,79 +23,7 @@ export default function Presentation() {
   </div>
 </section>
 
-{/* 1 · INTRO VIDEO */}
-<section className="sec intro" id="intro" data-title="Intro">
-  <div className="film" id="film">
-    <video id="introVideo" playsInline preload="metadata">
-      <source src="/intro.mp4" type="video/mp4" />
-    </video>
-    <div className="fallback" id="fallback" aria-live="polite">
-      <p className="cap" data-at="0">7:40 AM.</p>
-      <p className="cap" data-at="2.2">Diego is eleven. He should be leaving for school.</p>
-      <p className="cap" data-at="5.4">Instead, he’s on hold. Translating. Rescheduling. Again.</p>
-      <p className="cap" data-at="9.4">His mom doesn’t need a translator.<br />She needs someone to handle it.</p>
-      <div className="cap end" data-at="12.4"><span className="orb lg speaking" aria-hidden="true"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span><span>Meet Nayeli.</span></div>
-    </div>
-    <div className="poster" aria-hidden="true">
-      <span className="plabel">Intro · 0:15</span>
-      <span className="orb lg pposter"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
-      <div className="ptext"><span className="pclock">7:40 AM</span><span className="pplace">Brooklyn, NY</span></div>
-    </div>
-    <button className="play" id="playIntro" aria-label="Play intro"><svg className="si" width="42" height="42" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"></path></svg></button>
-  </div>
-  <a className="scrollcue" href="#problem">Scroll <svg className="si" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></a>
-</section>
-
-{/* 2 · PROBLEM */}
-<section className="sec problem" id="problem" data-title="Problem">
-  <div className="wrap grid2">
-    <div>
-      <p className="eyebrow coral">The problem</p>
-      <h2 className="h2">Diego is 11. He’s also his mom’s interpreter, scheduler, pharmacist and ride coordinator.</h2>
-      <p className="body">In countless Hispanic households, the child who speaks English becomes the household’s healthcare admin. They miss class to make calls, sit on hold before the first bell, and carry diagnoses no kid should have to translate.</p>
-    </div>
-    <div className="jobs reveal">
-      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M7 34 V11 H33 V34"></path><path d="M4 34 H36"></path><path d="M20 15 V25 M15 20 H25"></path><path d="M16 34 V29 H24 V34"></path></svg><span>Calling the clinic</span></div>
-      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M7 10 H33 V34 H7 Z"></path><path d="M7 16 H33"></path><path d="M13 6 V12 M27 6 V12"></path></svg><span>Rescheduling</span></div>
-      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 30 V15 H25 L31 21 H36 V30 H4"></path><path d="M8 15 V21 H24 V15"></path><path d="M8 30 a3 3 0 1 0 6 0"></path><path d="M26 30 a3 3 0 1 0 6 0"></path></svg><span>Booking rides</span></div>
-      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M8 26 L22 12 a6 6 0 0 1 8 8 L16 34 a6 6 0 0 1 -8 -8 Z"></path><path d="M15 19 L23 27"></path></svg><span>Tracking pills</span></div>
-      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 8 H34 V26 H18 L10 33 V26 H6 Z"></path><path d="M12 15 H28 M12 20 H22"></path></svg><span>Translating diagnoses</span></div>
-      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M5 19 L20 7 L35 19"></path><path d="M9 16 V33 H31 V16"></path><path d="M17 33 V24 H23 V33"></path></svg><span>Updating the family</span></div>
-    </div>
-  </div>
-  <div className="wrap stats reveal">
-    <div className="stat"><div className="n">≈26M</div><div className="t">people in the U.S. have limited English proficiency</div><div className="src">U.S. Census Bureau, American Community Survey</div></div>
-    <div className="stat"><div className="n">6 in 10</div><div className="t">of them speak Spanish at home</div><div className="src">U.S. Census Bureau, American Community Survey</div></div>
-    <div className="stat"><div className="n">20%</div><div className="t">of child language brokers suffer clinical distress</div></div>
-  </div>
-</section>
-
-{/* 3 · MEET NAYELI */}
-<section className="sec meet" id="meet" data-title="Nayeli">
-  <div className="wrap">
-    <p className="eyebrow coral">Meet Nayeli</p>
-    <h2 className="h2 narrow">Not a translator. A bilingual care agent who does the work.</h2>
-    <div className="pillars">
-      <article className="pillar sky reveal">
-        <span className="orb sm"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
-        <h3>Voice first</h3>
-        <p>Diego says it once, in Spanish or English. No forms, no menus, big tap targets for Rosa.</p>
-      </article>
-      <article className="pillar sage reveal">
-        <svg className="ic big" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 34 H36"></path><path d="M7 34 V29 H33 V34"></path><path d="M11 29 V24 H29 V29"></path><path d="M15 24 V19 H25 V24"></path><path d="M18 19 V14 H22 V19"></path><path d="M20 14 V9"></path></svg>
-        <h3>Does the work</h3>
-        <p>She places real phone calls, finds slots, books rides and keeps the medication list straight.</p>
-      </article>
-      <article className="pillar lav reveal">
-        <svg className="ic big" viewBox="0 0 40 40" aria-hidden="true"><path d="M3 12 L15 17"></path><path d="M15 17 L22 13 L29 14 L37 12 L30 17"></path><path d="M30 17 L26 23 L17 27 L11 35"></path><path d="M17 27 L16 17"></path><path d="M17 18 L21 6 L26 14"></path></svg>
-        <h3>Keeps everyone in the loop</h3>
-        <p>Every change shows up live for the family, with a text to Rosa and Diego when it’s done.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-{/* 4 · DEMO (scroll-driven) */}
+{/* 1 · DEMO (scroll-driven) */}
 <section className="sec demo" id="demo" data-title="Demo">
   <div className="sticky">
     <div className="demo-left">
@@ -278,6 +206,55 @@ export default function Presentation() {
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+{/* 2 · PROBLEM */}
+<section className="sec problem" id="problem" data-title="Problem">
+  <div className="wrap grid2">
+    <div>
+      <p className="eyebrow coral">The problem</p>
+      <h2 className="h2">Diego is 11. He’s also his mom’s interpreter, scheduler, pharmacist and ride coordinator.</h2>
+      <p className="body">In countless Hispanic households, the child who speaks English becomes the household’s healthcare admin. They miss class to make calls, sit on hold before the first bell, and carry diagnoses no kid should have to translate.</p>
+    </div>
+    <div className="jobs reveal">
+      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M7 34 V11 H33 V34"></path><path d="M4 34 H36"></path><path d="M20 15 V25 M15 20 H25"></path><path d="M16 34 V29 H24 V34"></path></svg><span>Calling the clinic</span></div>
+      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M7 10 H33 V34 H7 Z"></path><path d="M7 16 H33"></path><path d="M13 6 V12 M27 6 V12"></path></svg><span>Rescheduling</span></div>
+      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 30 V15 H25 L31 21 H36 V30 H4"></path><path d="M8 15 V21 H24 V15"></path><path d="M8 30 a3 3 0 1 0 6 0"></path><path d="M26 30 a3 3 0 1 0 6 0"></path></svg><span>Booking rides</span></div>
+      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M8 26 L22 12 a6 6 0 0 1 8 8 L16 34 a6 6 0 0 1 -8 -8 Z"></path><path d="M15 19 L23 27"></path></svg><span>Tracking pills</span></div>
+      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 8 H34 V26 H18 L10 33 V26 H6 Z"></path><path d="M12 15 H28 M12 20 H22"></path></svg><span>Translating diagnoses</span></div>
+      <div className="job"><svg className="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M5 19 L20 7 L35 19"></path><path d="M9 16 V33 H31 V16"></path><path d="M17 33 V24 H23 V33"></path></svg><span>Updating the family</span></div>
+    </div>
+  </div>
+  <div className="wrap stats reveal">
+    <div className="stat"><div className="n">≈26M</div><div className="t">people in the U.S. have limited English proficiency</div><div className="src">U.S. Census Bureau, American Community Survey</div></div>
+    <div className="stat"><div className="n">6 in 10</div><div className="t">of them speak Spanish at home</div><div className="src">U.S. Census Bureau, American Community Survey</div></div>
+    <div className="stat"><div className="n">20%</div><div className="t">of child language brokers suffer clinical distress</div></div>
+  </div>
+</section>
+
+{/* 3 · MEET NAYELI */}
+<section className="sec meet" id="meet" data-title="Nayeli">
+  <div className="wrap">
+    <p className="eyebrow coral">Meet Nayeli</p>
+    <h2 className="h2 narrow">Not a translator. A bilingual care agent who does the work.</h2>
+    <div className="pillars">
+      <article className="pillar sky reveal">
+        <span className="orb sm"><span className="ring"></span><span className="ring r2"></span><span className="core"></span></span>
+        <h3>Voice first</h3>
+        <p>Diego says it once, in Spanish or English. No forms, no menus, big tap targets for Rosa.</p>
+      </article>
+      <article className="pillar sage reveal">
+        <svg className="ic big" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 34 H36"></path><path d="M7 34 V29 H33 V34"></path><path d="M11 29 V24 H29 V29"></path><path d="M15 24 V19 H25 V24"></path><path d="M18 19 V14 H22 V19"></path><path d="M20 14 V9"></path></svg>
+        <h3>Does the work</h3>
+        <p>She places real phone calls, finds slots, books rides and keeps the medication list straight.</p>
+      </article>
+      <article className="pillar lav reveal">
+        <svg className="ic big" viewBox="0 0 40 40" aria-hidden="true"><path d="M3 12 L15 17"></path><path d="M15 17 L22 13 L29 14 L37 12 L30 17"></path><path d="M30 17 L26 23 L17 27 L11 35"></path><path d="M17 27 L16 17"></path><path d="M17 18 L21 6 L26 14"></path></svg>
+        <h3>Keeps everyone in the loop</h3>
+        <p>Every change shows up live for the family, with a text to Rosa and Diego when it’s done.</p>
+      </article>
     </div>
   </div>
 </section>
