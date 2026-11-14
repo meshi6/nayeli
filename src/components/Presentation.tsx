@@ -24,11 +24,11 @@ export default function Presentation() {
 </section>
 
 {/* 1 · DEMO (scroll-driven) */}
-<section className="sec demo" id="demo" data-title="Demo">
+<section className="sec demo" id="demo" data-title="DEMO (September 2026)">
   <div className="sticky">
     <div className="demo-left">
       <div className="demo-head">
-        <p className="eyebrow coral">Demo</p>
+        <p className="eyebrow coral">DEMO <span style={{ textTransform: "none" }}>(September 2026)</span></p>
         <div className="stagebar" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
       </div>
       <div className="stories">
