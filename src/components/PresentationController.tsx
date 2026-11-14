@@ -5,7 +5,6 @@ import { useEffect } from "react";
 // The demo timeline runs on T = 0..100, driven by scroll progress through #demo.
 // Stage boundaries (T): home 0, talk 10, call 25, work 45, home-after 80.
 const STAGE_STARTS = [0, 10, 25, 45, 80];
-const INTRO_SECONDS = 15;
 
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v));
 
@@ -131,7 +130,6 @@ export default function PresentationController() {
         let idx = 0;
         sections.forEach((s, i) => { if (s.offsetTop <= mid) idx = i; });
         dots.forEach((d, i) => d.classList.toggle("on", i === idx));
-        nav?.classList.toggle("dark", sections[idx]?.id === "intro");
       });
     };
     const onResize = () => { fit(); onScroll(); };
@@ -202,55 +200,6 @@ export default function PresentationController() {
     };
     window.addEventListener("keydown", onKey);
     cleanups.push(() => window.removeEventListener("keydown", onKey));
-
-    // intro: real video if public/intro.mp4 exists, otherwise the caption film
-    const film = document.getElementById("film");
-    const video = document.getElementById("introVideo") as HTMLVideoElement | null;
-    const source = video?.querySelector("source");
-    const playIntro = document.getElementById("playIntro");
-    let hasVideo = false;
-    const onMeta = () => { hasVideo = true; film?.classList.add("has-video"); };
-    video?.addEventListener("loadedmetadata", onMeta);
-    if (video && video.readyState >= 1) onMeta();
-    const onSourceError = () => { hasVideo = false; };
-    source?.addEventListener("error", onSourceError);
-
-    const caps = Array.from(document.querySelectorAll<HTMLElement>("#fallback .cap"));
-    let filmRaf = 0;
-    const runFallback = () => {
-      cancelAnimationFrame(filmRaf);
-      const t0 = performance.now();
-      const tick = (now: number) => {
-        const t = (now - t0) / 1000;
-        caps.forEach((c, i) => {
-          const at = Number(c.dataset.at);
-          const next = i < caps.length - 1 ? Number(caps[i + 1].dataset.at) : Infinity;
-          c.classList.toggle("show", t >= at && t < next - 0.35);
-        });
-        if (t < INTRO_SECONDS) filmRaf = requestAnimationFrame(tick);
-        else film?.classList.remove("playing");
-      };
-      filmRaf = requestAnimationFrame(tick);
-    };
-    const onPlay = () => {
-      film?.classList.add("playing");
-      if (hasVideo && video) {
-        video.currentTime = 0;
-        void video.play();
-      } else {
-        runFallback();
-      }
-    };
-    const onEnded = () => film?.classList.remove("playing");
-    playIntro?.addEventListener("click", onPlay);
-    video?.addEventListener("ended", onEnded);
-    cleanups.push(() => {
-      cancelAnimationFrame(filmRaf);
-      playIntro?.removeEventListener("click", onPlay);
-      video?.removeEventListener("ended", onEnded);
-      video?.removeEventListener("loadedmetadata", onMeta);
-      source?.removeEventListener("error", onSourceError);
-    });
 
     return () => cleanups.forEach((fn) => fn());
   }, []);
